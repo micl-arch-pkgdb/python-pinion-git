@@ -1,13 +1,13 @@
 # Maintainer: Michael W. Lloyd <micl_dev@protonmail.com>
 pkgname=python-pinion
 _pkgname=Pinion
-pkgver=v0.1.0  # Update this according to the latest version
+pkgver=v0.3.0.r0.gdfb53dd  # Update this according to the latest version
 pkgrel=1
 pkgdesc="eenis?"
 arch=('any')
 url="https://github.com/yaqwsx/Pinion"
 license=('MIT')  # Update this according to the package's license
-depends=('python' 'python-pcbnewTransition' 'python-pcbdraw' 'python-svgpathtools')
+  depends=('python' 'python-pcbnewTransition' 'python-pcbdraw' 'python-svgpathtools' 'python-ruamel-yam' )
 makedepends=('python-setuptools' 'python-wheel')
 provides=('python-pinion')
 conflicts=('python-pinion')
