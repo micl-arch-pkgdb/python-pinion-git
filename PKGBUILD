@@ -2,7 +2,7 @@
 # Contributor: yaqwsx 
 pkgname=python-pinion
 _pkgname=Pinion
-pkgver=v0.3.0.r0.gdfb53dd  # Update this according to the latest version
+pkgver=v1.0.0
 pkgrel=1
 pkgdesc="eenis?"
 arch=('any')
